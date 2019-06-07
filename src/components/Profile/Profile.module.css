@@ -1,0 +1,14 @@
+.mainContent {
+    grid-area: m;
+    background: wheat;
+}
+
+.mainImg{
+    height: 350px;
+    display: block;
+    width: 100%;
+}
+
+.item.active {
+    color: gold;
+}

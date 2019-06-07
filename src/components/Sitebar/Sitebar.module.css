@@ -1,0 +1,15 @@
+.siteBar {
+    grid-area: s;
+    background: black;
+    padding: 20px;
+
+}
+.siteBar a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+.siteBar a.activeLink {
+    color: mediumaquamarine;
+
+}

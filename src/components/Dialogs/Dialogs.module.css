@@ -1,0 +1,46 @@
+.dialogContainer {
+    background: wheat;
+    display: grid;
+    height: 100%;
+    box-sizing: border-box;
+    grid-template-columns: 2fr 7fr;
+    padding: 40px;
+    grid-template-areas: "name text";
+}
+.mainTitle {
+    color: #444;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.dialogName {
+    grid-area: name;
+    height: 100%;
+    border-right: 1px  solid mediumaquamarine ;
+}
+
+.clientName {
+    margin: 10px auto;
+    padding-left: 20px;
+    position: relative;
+    text-decoration: none;
+    color: #444444;
+}
+
+.clientName:before {
+    position: absolute;
+    content: "";
+    border-radius: 50%;
+    width: 6px;
+    height: 6px;
+    background: black;
+    left: 0px;
+    top: 9px;
+}
+
+.dialogText {
+    grid-area: text;
+    padding-left: 30px ;
+}
