@@ -3,9 +3,11 @@ import s from "./MyPost.module.css";
 
 const MyPost = (props) => {
 
+  //https://www.youtube.com/watch?v=mLwsIPBDr8A
     let newElementData = React.createRef();
 
     let messagePost = () => {
+      debugger
         let text = newElementData.current.value;
         props.addPost(text);
         props.changeText('');

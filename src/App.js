@@ -17,6 +17,7 @@ const App = (props) => {
     return (
         <BrowserRouter>
             <div className="body">
+
                 <Header/>
                 <Menu/>
                 <div className="app-container-wrapper">

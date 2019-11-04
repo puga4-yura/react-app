@@ -48,6 +48,7 @@ let store = {
 
     },
     changeText (messageChange){
+        debugger
         this._state.profilePage.newPostText = messageChange;
         this.renderEntirTree(this._state);
 
